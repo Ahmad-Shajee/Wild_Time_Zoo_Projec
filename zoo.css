@@ -1,0 +1,145 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+header {
+    background: #4CAF50; /* Dark green background */
+    color: white;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style: none; /* Remove bullet points */
+    padding: 0;
+    display: flex; /* Flexbox for horizontal layout */
+    justify-content: center; /* Center navigation items */
+}
+
+nav ul li {
+    margin: 0 20px; /* Spacing between items */
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none; /* Remove underline */
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline; /* Underline on hover */
+}
+
+main {
+    padding: 20px;
+    max-width: 1200px; /* Max width for the main content */
+    margin: 20px auto; /* Center the main content */
+}
+
+h1, h2 {
+    color: #4CAF50; /* Green color for headings */
+}
+
+blockquote {
+    background: #f9f9f9; /* Light background for blockquotes */
+    border-left: 4px solid #4CAF50; /* Left border for emphasis */
+    padding: 10px 20px; /* Padding for blockquote */
+    margin: 20px 0; /* Margin for spacing */
+}
+
+footer {
+    text-align: center; /* Center the footer text */
+    padding: 20px;
+    background: #333; /* Dark footer background */
+    color: white; /* White text in footer */
+    position: relative; /* Position relative for any absolute children */
+}
+
+footer a {
+    color: #4CAF50; /* Green color for links in footer */
+}
+
+footer a:hover {
+    text-decoration: underline; /* Underline on hover */
+}
+
+/* Table Styles */
+table {
+    width: 100%; /* Full width for tables */
+    border-collapse: collapse; /* Remove spacing between borders */
+    margin: 20px 0; /* Margin for spacing */
+}
+
+table caption {
+    font-weight: bold; /* Bold caption */
+    margin-bottom: 10px; /* Space below caption */
+}
+
+th, td {
+    border: 1px solid #ddd; /* Light border */
+    padding: 8px; /* Padding inside cells */
+    text-align: left; /* Align text to left */
+}
+
+th {
+    background: #4CAF50; /* Green background for headers */
+    color: white; /* White text for headers */
+}
+
+/* Form Styles */
+form {
+    max-width: 600px; /* Max width for forms */
+    margin: auto; /* Center forms */
+    background: #f9f9f9; /* Light background for forms */
+    padding: 20px; /* Padding inside forms */
+    border-radius: 5px; /* Rounded corners */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Shadow for depth */
+}
+
+form label {
+    display: block; /* Block display for labels */
+    margin-bottom: 5px; /* Space below labels */
+}
+
+form input[type="text"],
+form input[type="email"],
+form textarea {
+    width: 100%; /* Full width for inputs */
+    padding: 10px; /* Padding inside inputs */
+    border: 1px solid #ddd; /* Light border */
+    border-radius: 4px; /* Rounded corners */
+    margin-bottom: 15px; /* Space below inputs */
+}
+
+form button {
+    background: #4CAF50; /* Green button */
+    color: white; /* White text on button */
+    border: none; /* No border */
+    padding: 10px 15px; /* Padding inside button */
+    border-radius: 4px; /* Rounded corners */
+    cursor: pointer; /* Pointer on hover */
+    font-size: 16px; /* Font size */
+}
+
+form button:hover {
+    background: #45a049; /* Darker green on hover */
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    nav ul {
+        flex-direction: column; /* Stack items vertically on small screens */
+    }
+
+    nav ul li {
+        margin: 10px 0; /* Spacing between items */
+    }
+
+    main {
+        padding: 10px; /* Less padding on small screens */
+    }
+}
