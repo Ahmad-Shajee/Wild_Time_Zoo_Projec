@@ -3,33 +3,85 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="zoo.css"> 
+    <link rel="stylesheet" href="static/animals.css"> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     <title>Wild Time Zoo - Animals</title>
 </head>
 <body>
     <header>
         <nav>
             <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">About Us</a></li>
-                <li><a href="services.html">Services</a></li>
-                <li><a href="animals.html">Animals</a></li>
-                <li><a href="contact.html">Contact Us</a></li>
+                <div class="contacts">
+                    <li>
+                        <a href="tel:04235321143">
+                            <i class="fas fa-phone-alt"></i> (042) 35321143
+                        </a>
+                    </li>
+                    <li>
+                        <a href="mailto:wildtimezoo@gmail.com">
+                            <i class="fas fa-envelope"></i> wildtimezoo@gmail.com
+                        </a>
+                    </li>
+                </div>
+                <div class="contacts">
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="services.html">Services</a></li>
+                </div>
             </ul>
         </nav>
     </header>
 
+    <div class="extended-header">
+        <div class="navbar-logo">
+            <img src="static/logo.png" alt="zoo-logo">
+        </div>
+        <div class="page-links">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="animals.html">Animals</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+        <div class="social-links">
+            <ul>
+                <li><a href="services.html">Ticket Info</a></li>
+                <li><a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook"></i></a></li>
+                <li><a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram"></i></a></li>
+            </ul>
+        </div>
+    </div>
+
+
     <main>
-        <h1>Meet Rex the Rhino</h1>
-        <p>Rex is known for his impressive size and strength. He can weigh over 2,000 kg and has a thick skin that protects him in the wild.</p>
-        <p>Rex loves to roam in his enclosure and interact with visitors.</p>
+        <h1>Our Animals</h1>
+
+        <section class="animal-section rhino">
+            
+            <h2>Meet Rex the Rhino</h2>
+            <p>Rex is known for his impressive size and strength. He can weigh over 2,000 kg and has a thick skin that protects him in the wild.</p>
+            <p>Rex loves to roam in his enclosure and interact with visitors.</p>
+        </section>
+        
+        <section class="animal-section lion">
+            <h2>Meet Leo the Lion</h2>
+            <p>Leo is the king of the jungle. With his majestic mane and powerful roar, he commands respect from all other animals.</p>
+            <p>Leo enjoys basking in the sun and is known for his playful nature.</p>
+        </section>
+        
+        <section class="animal-section elephant">
+            <h2>Meet Ella the Elephant</h2>
+            <p>Ella is one of the largest land animals on Earth. Known for her intelligence and strong social bonds, she travels in a herd.</p>
+            <p>Ella loves splashing in water and using her trunk to explore her surroundings.</p>
+        </section>
+        
     </main>
 
     <footer>
-        <p>© 2024 Wild Time Zoo | Follow us on 
-            <a href="#">Facebook</a>, 
-            <a href="#">Twitter</a>, 
-            <a href="#">Instagram</a>
+        <p>© 2024 Wild Time Zoo | Follow us on
+            <a href="https://www.facebook.com" target="_blank">Facebook</a>
+            <a href="https://www.x.com" target="_blank">Twitter</a>
+            <a href="https://www.instagram.com" target="_blank">Instagram</a>
         </p>
     </footer>
 </body>
