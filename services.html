@@ -1,28 +1,64 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="zoo.css">
+    <link rel="stylesheet" href="static/services.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     <title>Wild Time Zoo - Services</title>
 </head>
+
 <body>
     <header>
         <nav>
             <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">About Us</a></li>
-                <li><a href="services.html">Services</a></li>
-                <li><a href="animals.html">Animals</a></li>
-                <li><a href="contact.html">Contact Us</a></li>
+                <div class="contacts">
+                    <li>
+                        <a href="tel:04235321143">
+                            <i class="fas fa-phone-alt"></i> (042) 35321143
+                        </a>
+                    </li>
+                    <li>
+                        <a href="mailto:wildtimezoo@gmail.com">
+                            <i class="fas fa-envelope"></i> wildtimezoo@gmail.com
+                        </a>
+                    </li>
+                </div>
+                <div class="contacts">
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="services.html">Services</a></li>
+                </div>
             </ul>
         </nav>
     </header>
 
+    <div class="extended-header">
+        <div class="navbar-logo">
+            <img src="static/logo.png" alt="zoo-logo">
+        </div>
+        <div class="page-links">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="animals.html">Animals</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+        <div class="social-links">
+            <ul>
+                <li><a href="services.html">Ticket Info</a></li>
+                <li><a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook"></i></a></li>
+                <li><a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram"></i></a></li>
+            </ul>
+        </div>
+    </div>
+
     <main>
-        <h1>Our Services</h1>
-        <p>Wild Time Zoo offers various services to enhance your visit.</p>
-        
+        <div class="main-container">
+            <h1>Our Services</h1>
+            <p>Wild Time Zoo offers various services to enhance your visit.</p>
+        </div>
         <table>
             <caption>Service Pricing</caption>
             <thead>
@@ -45,11 +81,12 @@
     </main>
 
     <footer>
-        <p>© 2024 Wild Time Zoo | Follow us on 
-            <a href="#">Facebook</a>, 
-            <a href="#">Twitter</a>, 
-            <a href="#">Instagram</a>
+        <p>© 2024 Wild Time Zoo | Follow us on
+            <a href="https://www.facebook.com" target="_blank">Facebook</a>
+            <a href="https://www.x.com" target="_blank">Twitter</a>
+            <a href="https://www.instagram.com" target="_blank">Instagram</a>
         </p>
     </footer>
 </body>
+
 </html>

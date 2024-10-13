@@ -1,44 +1,128 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="zoo.css">
+    <link rel="stylesheet" href="static/zoo.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     <title>Wild Time Zoo - Home</title>
 </head>
+
 <body>
     <header>
         <nav>
             <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">About Us</a></li>
-                <li><a href="services.html">Services</a></li>
-                <li><a href="animals.html">Animals</a></li>
-                <li><a href="contact.html">Contact Us</a></li>
+                <div class="contacts">
+                    <li>
+                        <a href="tel:04235321143">
+                            <i class="fas fa-phone-alt"></i> (042) 35321143
+                        </a>
+                    </li>
+                    <li>
+                        <a href="mailto:wildtimezoo@gmail.com">
+                            <i class="fas fa-envelope"></i> wildtimezoo@gmail.com
+                        </a>
+                    </li>
+                </div>
+                <div class="contacts">
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="services.html">Services</a></li>
+                </div>
             </ul>
         </nav>
     </header>
 
-    <main>
-        <h1>Welcome to Wild Time Zoo!</h1>
-        <p>Explore our new features: the 'Wild People' restaurant, 'Hungry Lion' picnic areas, a brand new gorilla enclosure, and our educational center!</p>
-        <section>
-            <h2>New Features</h2>
+    <div class="extended-header">
+        <div class="navbar-logo">
+            <img src="static/logo.png" alt="zoo-logo">
+        </div>
+        <div class="page-links">
             <ul>
-                <li>Wild People Restaurant - A night spot and evening bar.</li>
-                <li>Hungry Lion Picnic Areas - Six new spots to enjoy a meal.</li>
-                <li>Gorilla Enclosure - Home to our newly procured gorillas.</li>
-                <li>Educational Center - Informative tours and displays.</li>
+                <li><a href="#index">Home</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="animals.html">Animals</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+        <div class="social-links">
+            <ul>
+                <li><a href="services.html">Ticket Info</a></li>
+                <li><a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook"></i></a></li>
+                <li><a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram"></i></a></li>
+            </ul>
+        </div>
+    </div>
+
+    <main>
+        <section class="highlight" id="index">
+            <div class="overlay-container">
+                <div class="overlay">
+                    <h1>Welcome to Wild Time Zoo!</h1>
+                    <p>Experience the Wild, Connect with Nature, and Create Unforgettable Memories.</p>
+                </div>
+            </div>
+        </section>
+        <section class="features">
+            <h2>New Features</h2>
+            <ul class="features-list">
+                <li class="bg-feature bg-feature-1">Wild People Restaurant - A night spot and evening bar.</li>
+                <li class="bg-feature bg-feature-2">Hungry Lion Picnic Areas - Six new spots to enjoy a meal.</li>
+                <li class="bg-feature bg-feature-3">Gorilla Enclosure - Home to our newly procured gorillas.</li>
+                <li class="bg-feature bg-feature-4">Educational Center - Informative tours and displays.</li>
             </ul>
         </section>
+        <section class="accessibility">
+            <h2>Asssessibilty</h2>
+            <div class="accessibility-content">
+                <div class="accessibility-img">
+                    <img src="static/accessibility-map.webp" alt="">
+                </div>
+                <div class="accessibility-text">
+                    All paths are concrete or gravel. There is some uneven ground. One of the main kangaroo areas is
+                    grass/dirt. The top of the Park at entrance is flat with paths on a gentle slope; however, other
+                    areas of the Park are on an incline. All paths are accessible by wheelchair, but some visitors could
+                    find some surfaces and slopes difficult to manage.
+                    <br>
+                    <br>
+                    The ground can be slippery when wet.
+                </div>
+            </div>
+        </section>
+        <section class="testimonials">
+            <h2>What Our Visitors Are Saying</h2>
+            <div class="testimonial">
+                <div class="testimonial-image">
+                    <div class="overlay-2">
+                        <p>“… well it certainly wasn’t what I expected, but that’s not a bad thing. The zoo area itself is quite an expansive area so you have to come prepared to do a lot of walking, it took us about 3 hours to see everything, and that was without having a rest break of any sort.”</p>
+                    </div>
+                </div>
+            </div>
+            <div class="testimonial">
+                <div class="testimonial-image">
+                    <div class="overlay-2">
+                        <p>“… as a teacher I’m constantly looking for new experiences to help reinforce what I teach to the kids in class. Obviously coming out here as part of a field trip helps, but it would also be good to be able to get back to our small little primary school and review with the kids what we have heard, seen, and learnt here.”</p>
+                    </div>
+                </div>
+            </div>
+            <div class="testimonial">
+                <div class="testimonial-image">
+                    <div class="overlay-2">
+                        <p>“... I think my grandmother is feeling pretty freaked out about the whole thing. We didn’t realize just how huge that tank of a Rhino really was. Perhaps if we had known some things about it beforehand we would not have taken that particular route through the zoo.”</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    
     </main>
 
     <footer>
-        <p>© 2024 Wild Time Zoo | Follow us on 
-            <a href="#">Facebook</a>, 
-            <a href="#">Twitter</a>, 
-            <a href="#">Instagram</a>
+        <p>© 2024 Wild Time Zoo | Follow us on
+            <a href="https://www.facebook.com" target="_blank">Facebook</a>
+            <a href="https://www.x.com" target="_blank">Twitter</a>
+            <a href="https://www.instagram.com" target="_blank">Instagram</a>
         </p>
     </footer>
 </body>
+
 </html>
