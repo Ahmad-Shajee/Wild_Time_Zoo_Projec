@@ -198,3 +198,20 @@ footer a:hover {
 form button:hover {
     background: var(--color-secondary); 
 }
+
+.error {
+    color: red;
+    font-size: 0.9em;
+    display: block;
+    margin-bottom: 5px; /* Adjusting spacing to move the error messages closer */
+    position: relative;
+    top: -5px; /* Positioning the error message slightly above the input */
+}
+
+.success {
+    color: green;
+    font-size: 1em;
+    margin-top: 10px;
+}
+
+

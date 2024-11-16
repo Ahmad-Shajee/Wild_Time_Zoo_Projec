@@ -201,3 +201,30 @@ footer a {
 footer a:hover {
     text-decoration: underline;
 }
+
+/* Add a container around the buttons */
+button-container {
+    display: flex;  /* Enable flexbox */
+    justify-content: center;  /* Center the buttons horizontally */
+    gap: 20px;  /* Space between buttons */
+}
+
+/* Styling for Buttons */
+button {
+    margin-top: 20px;
+    padding: 10px 20px;  /* Adjusted padding for better spacing */
+    background-color: #8DC641;  /* Set the button color */
+    color: white;  /* Text color */
+    border: none;  /* Remove default border */
+    border-radius: 5px;  /* Rounded corners */
+    cursor: pointer;  /* Pointer cursor on hover */
+    font-size: 1.2rem;  /* Font size */
+    transition: background-color 0.3s ease;  /* Smooth transition for color change */
+}
+
+/* Hover effect for buttons */
+button:hover {
+    background-color: #76A932;  /* Darker shade of green for hover */
+}
+
+

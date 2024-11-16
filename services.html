@@ -59,6 +59,18 @@
             <h1>Our Services</h1>
             <p>Wild Time Zoo offers various services to enhance your visit.</p>
         </div>
+        
+        <div class="service-input">
+            <input type="text" id="newService" placeholder="Enter Service Name" />
+            <input type="text" id="newPrice" placeholder="Enter Service Price" />
+        </div>
+    
+        <div class="buttons-container">
+            <button id="addServiceBtn">Add Item</button>
+            <button id="removeServiceBtn">Remove Last Item</button>
+        </div>
+    
+        <p id="error-message" style="color: red; display: none;">Please enter both the service name and price.</p>
         <table>
             <caption>Service Pricing</caption>
             <thead>
@@ -67,7 +79,7 @@
                     <th>Price</th>
                 </tr>
             </thead>
-            <tbody>
+            <tbody id="services-list">
                 <tr>
                     <td>Entrance Fee</td>
                     <td>$15</td>
@@ -78,7 +90,10 @@
                 </tr>
             </tbody>
         </table>
-    </main>
+    
+    </main>     
+    
+    <script src="services.js"></script>
 
     <footer>
         <p>© 2024 Wild Time Zoo | Follow us on

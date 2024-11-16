@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="static/zoo.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <script src="index.js"></script>
     <title>Wild Time Zoo - Home</title>
 </head>
 
@@ -63,6 +64,27 @@
                 </div>
             </div>
         </section>
+
+        <section class="controls">
+            <button id="show-button" onclick="showDetails()">Show Details</button>
+            <button id="hide-button" onclick="hideDetails()" style="display:none;">Hide Details</button>
+            <button id="change-color-button" onclick="showColorPicker()">Change Background Color</button>
+        
+            <label for="colorPicker" id="color-label" style="display:none;">Pick a background color:</label>
+            <input type="color" id="colorPicker" onchange="updateBackgroundColor()" style="display:none;">
+        </section>
+        
+        <section id="details-section" style="display:none;">
+            <h3>Zoo Facts</h3>
+            <p>The wild time zoo is one of the most famous zoos in the world as more than 10 million people visit yearly.</p>
+        </section>
+        
+
+        <section id="details-section" style="display:none;">
+            <h3>Zoo Facts</h3>
+            <p>The wild time zoo is one of the most famous zoos in the world as more than 10 million people visit yearly.</p>
+        </section>
+
         <section class="features">
             <h2>New Features</h2>
             <ul class="features-list">
