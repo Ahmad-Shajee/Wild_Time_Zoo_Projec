@@ -170,6 +170,14 @@ main {
 
 }
 
+.controls button{
+    width: 200px;
+    height: 60px;
+    text-align: center;
+    font-weight: 600;
+    border-radius: 10px;
+}
+
 .features {
     padding: 20px;
     display: flex;

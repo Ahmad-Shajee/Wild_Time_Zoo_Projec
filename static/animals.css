@@ -6,10 +6,10 @@ body {
     --color-secondary: #8DC641;
     --color-text: #595959;
     --color-accent: #FAA71C;
-    overflow-y: scroll;   
+    overflow-y: scroll;
 }
 
-body::-webkit-scrollbar{
+body::-webkit-scrollbar {
     width: 0;
     height: 0;
 }
@@ -30,18 +30,18 @@ header {
     align-content: center;
 }
 
-ul{
+ul {
     padding: 0;
     margin: 0;
 }
 
-li{
+li {
     margin: 0;
     padding: 0;
     list-style: none;
 }
 
-nav ul{
+nav ul {
     width: 100%;
     display: flex;
     flex-direction: row;
@@ -49,19 +49,19 @@ nav ul{
     justify-content: space-between;
 }
 
-ul .contacts{
+ul .contacts {
     display: flex;
     gap: 10px;
     padding: 0 10px;
 }
 
-li a{
+li a {
     color: white;
     font-weight: 600;
     text-decoration: none;
 }
 
-.extended-header{
+.extended-header {
     margin: 0;
     padding: 0;
     position: sticky;
@@ -70,7 +70,7 @@ li a{
     background-size: cover;
     background-position: bottom center;
     width: 100%;
-    height: 20vh;    
+    height: 20vh;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -89,13 +89,13 @@ li a{
     list-style: none;
 }
 
-.page-links ul{
+.page-links ul {
     font-size: 1.5rem;
     gap: 0 30px;
     margin-top: -20px;
 }
 
-.social-links ul li:first-child{
+.social-links ul li:first-child {
     text-decoration: none;
     color: white;
     font-weight: bold;
@@ -105,12 +105,12 @@ li a{
     border-radius: 30px;
 }
 
-.social-links ul{
+.social-links ul {
     align-items: center;
 
 }
 
-.navbar-logo img{
+.navbar-logo img {
     width: 100px;
     height: auto;
     margin-top: -20px;
@@ -130,8 +130,15 @@ main {
 
 
 h1 {
+    font-size: 50px;
     text-align: center;
     margin-bottom: 20px;
+}
+
+.overlay {
+    background-color: rgba( 0, 0, 0, 0.6);
+    padding: 15px 20px;
+    border-radius: 10px;
 }
 
 .animal-section {
@@ -148,7 +155,7 @@ h1 {
     justify-content: center;
     align-items: center;
     color: white;
-    
+
 }
 
 .animal-section h2 {
@@ -189,7 +196,7 @@ footer {
     color: white;
 }
 
-footer p{
+footer p {
     padding: 10px;
     margin: 0;
 }
@@ -204,27 +211,37 @@ footer a:hover {
 
 /* Add a container around the buttons */
 button-container {
-    display: flex;  /* Enable flexbox */
-    justify-content: center;  /* Center the buttons horizontally */
-    gap: 20px;  /* Space between buttons */
+    display: flex;
+    /* Enable flexbox */
+    justify-content: center;
+    /* Center the buttons horizontally */
+    gap: 20px;
+    /* Space between buttons */
 }
 
 /* Styling for Buttons */
 button {
     margin-top: 20px;
-    padding: 10px 20px;  /* Adjusted padding for better spacing */
-    background-color: #8DC641;  /* Set the button color */
-    color: white;  /* Text color */
-    border: none;  /* Remove default border */
-    border-radius: 5px;  /* Rounded corners */
-    cursor: pointer;  /* Pointer cursor on hover */
-    font-size: 1.2rem;  /* Font size */
-    transition: background-color 0.3s ease;  /* Smooth transition for color change */
+    padding: 10px 20px;
+    /* Adjusted padding for better spacing */
+    background-color: #8DC641;
+    /* Set the button color */
+    color: white;
+    /* Text color */
+    border: none;
+    /* Remove default border */
+    border-radius: 5px;
+    /* Rounded corners */
+    cursor: pointer;
+    /* Pointer cursor on hover */
+    font-size: 1.2rem;
+    /* Font size */
+    transition: background-color 0.3s ease;
+    /* Smooth transition for color change */
 }
 
 /* Hover effect for buttons */
 button:hover {
-    background-color: #76A932;  /* Darker shade of green for hover */
+    background-color: #76A932;
+    /* Darker shade of green for hover */
 }
-
-

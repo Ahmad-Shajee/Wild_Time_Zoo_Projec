@@ -14,15 +14,15 @@ const originalStyle = {
 
 // Function to change the style of the text in the sections
 function changeTextStyle() {
-    rhinoSection.style.color = "red";
+    rhinoSection.style.color = "#01ffff";
     rhinoSection.style.fontWeight = "bold";
     rhinoSection.style.fontStyle = "italic";
 
-    lionSection.style.color = "blue";
+    lionSection.style.color = "#91ff00";
     lionSection.style.fontWeight = "bold";
     lionSection.style.fontStyle = "italic";
 
-    elephantSection.style.color = "green";
+    elephantSection.style.color = "#ffa200";
     elephantSection.style.fontWeight = "bold";
     elephantSection.style.fontStyle = "italic";
 }
